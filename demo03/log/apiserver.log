@@ -1,0 +1,12 @@
+{"level":"INFO","timestamp":"2019-03-26 23:46:50.741","file":"demo03/main.go:54","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-03-26 23:46:50.743","file":"demo03/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-03-26 23:57:52.264","file":"demo03/main.go:54","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-03-26 23:57:52.266","file":"router/router.go:29","msg":"enter query by url :/sd/health"}
+{"level":"INFO","timestamp":"2019-03-26 23:57:52.266","file":"demo03/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-03-26 23:58:02.604","file":"router/router.go:29","msg":"enter query by url :/sd/health"}
+{"level":"INFO","timestamp":"2019-03-26 23:58:12.732","file":"router/router.go:29","msg":"enter query by url :/sd/cpu"}
+{"level":"INFO","timestamp":"2019-03-27 00:00:29.047","file":"demo03/main.go:54","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-03-27 00:00:29.048","file":"router/router.go:29","msg":"enter query by url :/sd/health"}
+{"level":"INFO","timestamp":"2019-03-27 00:00:29.049","file":"demo03/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-03-27 00:00:32.645","file":"router/router.go:29","msg":"enter query by url :/sd/cpu"}
+{"level":"INFO","timestamp":"2019-03-27 00:00:39.609","file":"router/router.go:29","msg":"enter query by url :/sd/cpu"}
