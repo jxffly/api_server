@@ -26,7 +26,7 @@ func openDB(username, password, addr, name string) *gorm.DB {
 		true,
 		//"Asia/Shanghai"),
 		"Local")
-
+	log.Debugf("the open config is :%+v", config)
 	db, err := gorm.Open("mysql", config)
 	if err != nil {
 		log.Errorf(err, "Database connection failed. Database name: %s", name)
@@ -45,11 +45,15 @@ func setupDB(db *gorm.DB) {
 }
 
 // used for cli
+
 func InitSelfDB() *gorm.DB {
-	return openDB(viper.GetString("db.username"),
-		viper.GetString("db.password"),
-		viper.GetString("db.addr"),
-		viper.GetString("db.name"))
+	log.Debugf("teh inin databae config is :%+v", viper.GetStringMap("datasource.mysql_db"))
+
+	return openDB(
+		viper.GetString("datasource.mysql_db.username"),
+		viper.GetString("datasource.mysql_db.password"),
+		viper.GetString("datasource.mysql_db.addr"),
+		viper.GetString("datasource.mysql_db.name"))
 }
 
 func GetSelfDB() *gorm.DB {
@@ -57,10 +61,11 @@ func GetSelfDB() *gorm.DB {
 }
 
 func InitDockerDB() *gorm.DB {
-	return openDB(viper.GetString("docker_db.username"),
-		viper.GetString("docker_db.password"),
-		viper.GetString("docker_db.addr"),
-		viper.GetString("docker_db.name"))
+	return openDB(
+		viper.GetString("datasource.docker_mysql_db.username"),
+		viper.GetString("datasource.docker_mysql_db.password"),
+		viper.GetString("datasource.docker_mysql_db.addr"),
+		viper.GetString("datasource.docker_mysql_db.name"))
 }
 
 func GetDockerDB() *gorm.DB {

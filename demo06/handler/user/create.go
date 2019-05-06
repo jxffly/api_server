@@ -3,8 +3,8 @@ package user
 import (
 	"fmt"
 
-	. "apiserver/handler"
-	"apiserver/pkg/errno"
+	. "apiserver_demos/demo06/handler"
+	"apiserver_demos/demo06/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"apiserver/model"
-	"apiserver/util"
+	"apiserver_demos/demo08/model"
+	"apiserver_demos/demo08/util"
 )
 
 func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, error) {
@@ -15,7 +15,7 @@ func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, er
 		return nil, count, err
 	}
 
-	ids := []uint64{}
+	var ids []uint64
 	for _, user := range users {
 		ids = append(ids, user.Id)
 	}

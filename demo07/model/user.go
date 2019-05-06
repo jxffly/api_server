@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 
-	"apiserver/pkg/auth"
-	"apiserver/pkg/constvar"
+	"apiserver_demos/demo07/pkg/auth"
+	"apiserver_demos/demo07/pkg/constvar"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )
@@ -29,7 +29,7 @@ func (u *UserModel) Create() error {
 func DeleteUser(id uint64) error {
 	user := UserModel{}
 	user.BaseModel.Id = id
-	return DB.Self.Delete(&user).Error
+	return DB.Self.Unscoped().Delete(&user).Error
 }
 
 // Update updates an user account information.

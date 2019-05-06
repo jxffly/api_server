@@ -1,10 +1,10 @@
 package user
 
 import (
-	. "apiserver/handler"
-	"apiserver/model"
-	"apiserver/pkg/errno"
-	"apiserver/util"
+	. "apiserver_demos/demo07/handler"
+	"apiserver_demos/demo07/model"
+	"apiserver_demos/demo07/pkg/errno"
+	"apiserver_demos/demo07/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
@@ -38,6 +38,7 @@ func Create(c *gin.Context) {
 	}
 	// Insert the user to the database.
 	if err := u.Create(); err != nil {
+		log.Errorf(err, "datta insert error:%v", err)
 		SendResponse(c, errno.ErrDatabase, nil)
 		return
 	}

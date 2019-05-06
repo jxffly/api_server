@@ -1,3 +1,333 @@
 {"level":"INFO","timestamp":"2019-03-26 23:44:42.797","file":"demo03/main.go:54","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2019-03-26 23:44:42.798","file":"demo03/main.go:68","msg":"Waiting for the router, retry in 1 second."}
 {"level":"INFO","timestamp":"2019-03-26 23:44:43.800","file":"demo03/main.go:51","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-03-28 10:12:05.579","file":"demo04/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-03-28 10:12:05.580","file":"demo04/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-03-28 10:12:06.582","file":"demo04/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-04-07 10:21:40.980","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"ERROR","timestamp":"2019-04-07 10:21:40.987","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"INFO","timestamp":"2019-04-07 10:21:40.988","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 10:21:40.989","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-04-07 11:58:49.651","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 11:58:49.651","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 11:58:49.652","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-04-07 14:38:25.305","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:38:25.307","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:38:25.308","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2019-04-07 14:38:37.530","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:38:37.530","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:38:37.531","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:41:44.109","file":"model/init.go:50","msg":"teh inin databae config is :%+v","data":{"addr":"127.0.0.1:3306","name":"db_apiserver","password":11111111,"username":"root"}}
+{"level":"ERROR","timestamp":"2019-04-07 14:41:44.119","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:41:44.119","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:41:44.120","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:44:15.827","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"ERROR","timestamp":"2019-04-07 14:44:15.855","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:44:15.855","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:44:15.856","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-07 14:44:56.061","file":"demo04/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:44:56.062","file":"demo04/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-07 14:44:57.077","file":"demo04/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:47:26.187","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"ERROR","timestamp":"2019-04-07 14:47:26.196","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:47:26.196","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:47:26.197","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:48:40.271","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"ERROR","timestamp":"2019-04-07 14:48:40.279","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:48:40.279","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:48:40.280","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:49:56.635","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:49:56.635","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:49:56.641","file":"model/init.go:29","msg":"the open config is ::11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"ERROR","timestamp":"2019-04-07 14:49:56.642","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:49:56.642","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:49:56.643","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:51:49.053","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:51:49.053","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:51:49.058","file":"model/init.go:29","msg":"the open config is ::11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"ERROR","timestamp":"2019-04-07 14:51:49.059","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: YES)"}}
+{"level":"INFO","timestamp":"2019-04-07 14:51:49.060","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:51:49.060","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 14:54:57.617","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:54:57.618","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 14:54:57.622","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 14:54:57.623","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 14:54:57.624","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 16:35:37.068","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:35:37.068","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:35:37.098","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 16:35:37.101","file":"demo05/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 16:35:37.102","file":"demo05/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 16:39:06.071","file":"user/create.go:26","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:39:40.313","file":"user/create.go:26","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:41:24.372","file":"user/create.go:26","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:41:40.946","file":"user/create.go:26","msg":"username is: [], password is [admin]"}
+{"level":"ERROR","timestamp":"2019-04-07 16:41:40.947","file":"user/create.go:29","msg":"Get an error","data":{"error":"Err - code: 20102, message: The user was not found. This is add message., error: username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2019-04-07 16:41:40.947","file":"user/create.go:33","msg":"err type is ErrUserNotFound"}
+{"level":"DEBUG","timestamp":"2019-04-07 16:51:51.714","file":"user/create.go:26","msg":"username is: [admin], password is [admin]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:05:42.370","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:05:42.371","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:05:42.389","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:05:42.391","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:05:42.391","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 17:25:43.512","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:25:43.512","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:25:43.519","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:25:43.524","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:25:43.525","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 17:28:10.295","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:28:10.295","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:28:10.303","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:28:10.305","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:28:10.306","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 17:29:32.799","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:29:32.799","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:29:32.828","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:29:32.842","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:29:32.844","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-07 17:29:32.935","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-07 17:29:32.935","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-07 17:29:32.935","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:29:32.935","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2019-04-07 17:29:34.729","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-07 17:29:34.729","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-07 17:29:34.729","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:29:34.729","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:30:21.630","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:30:21.631","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:30:21.636","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:30:21.640","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:30:21.641","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 17:32:37.086","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:32:37.087","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:32:37.101","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:32:37.105","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:32:37.105","file":"demo06/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-04-07 17:32:38.110","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-07 17:33:18.926","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:33:18.926","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:33:18.936","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-07 17:33:18.942","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-07 17:33:18.946","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-07 17:33:27.525","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-07 17:33:27.525","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-07 17:33:27.525","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:33:27.525","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2019-04-07 17:33:28.424","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-07 17:33:28.424","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-07 17:33:28.424","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-07 17:33:28.424","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:50:32.544","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:50:32.544","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:50:32.599","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-08 14:50:32.600","file":"demo06/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-08 14:50:32.600","file":"demo06/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-08 14:50:58.396","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 14:50:58.396","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 14:50:58.396","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:50:58.396","file":"user/create.go:30","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2019-04-08 14:51:09.706","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 14:51:09.706","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 14:51:09.706","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:51:09.706","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 14:52:04.294","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 14:52:04.294","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 14:52:04.294","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 14:52:04.294","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:01:46.131","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:01:46.131","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:01:46.131","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:01:46.131","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:02:38.435","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:02:38.436","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:02:38.436","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:02:38.436","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:04:24.129","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:24.129","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:24.129","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:04:24.129","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:04:31.233","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:31.233","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:31.233","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:04:31.233","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:04:46.489","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:46.489","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:04:46.489","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:04:46.489","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:06:40.325","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:06:40.326","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:06:40.326","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:06:40.326","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:07:44.081","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:44.081","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:44.081","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:07:44.081","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:07:55.500","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:55.500","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:55.500","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:07:55.500","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:07:56.805","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:56.805","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:56.805","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:07:56.805","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:07:57.742","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:57.742","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:07:57.742","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:07:57.742","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:08:06.979","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:06.979","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:06.979","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:08:06.979","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.003","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.003","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.003","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:08:14.003","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.922","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.922","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:14.922","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:08:14.922","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:08:23.248","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:23.248","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:23.248","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:08:23.248","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 15:08:24.658","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:24.658","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 15:08:24.658","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 15:08:24.658","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:12.822","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:12.825","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:12.825","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:12.825","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:13.636","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:13.636","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:13.636","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:13.636","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.331","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.331","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.332","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:15.332","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.814","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.814","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:15.814","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:15.814","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.287","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.287","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.287","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:16.287","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.759","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.760","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:16.760","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:16.760","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:25.008","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:25.008","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:25.008","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:25.008","file":"user/create.go:30","msg":"username is: [admin], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:45:38.646","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:38.647","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:45:38.647","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:45:38.647","file":"user/create.go:30","msg":"username is: [admindsad], password is [admin大萨达]"}
+{"level":"INFO","timestamp":"2019-04-08 19:47:19.391","file":"user/create.go:22","msg":"URL username: "}
+{"level":"INFO","timestamp":"2019-04-08 19:47:19.391","file":"user/create.go:25","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2019-04-08 19:47:19.392","file":"user/create.go:28","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2019-04-08 19:47:19.392","file":"user/create.go:30","msg":"username is: [admindsad], password is [admin大萨达]"}
+{"level":"ERROR","timestamp":"2019-04-08 22:07:53.854","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"ERROR","timestamp":"2019-04-08 22:07:53.857","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"INFO","timestamp":"2019-04-08 22:07:53.857","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-08 22:07:53.858","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-08 22:09:29.731","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-08 22:09:29.731","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-08 22:09:29.765","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-08 22:09:29.768","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-08 22:09:29.770","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-08 22:10:54.121","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-08 22:11:00.244","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-08 22:11:02.879","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-08 22:12:11.280","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-08 22:12:11.981","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"DEBUG","timestamp":"2019-04-08 22:14:40.045","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-08 22:14:40.045","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-08 22:14:40.050","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-08 22:14:40.051","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-08 22:14:40.052","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 09:14:25.366","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-04-09 09:14:25.457","file":"user/create.go:41","msg":"datta insert error:Error 1062: Duplicate entry 'admin' for key 'username'","data":{"error":"Error 1062: Duplicate entry 'admin' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-09 09:14:49.867","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"DEBUG","timestamp":"2019-04-09 21:02:45.355","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:02:45.356","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:02:45.374","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:02:45.377","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:02:45.379","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-09 21:04:26.231","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:04:26.231","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:04:26.238","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:04:26.243","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:04:26.244","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-09 21:05:43.509","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:05:43.510","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:05:43.518","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:05:43.520","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:05:43.521","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:05:52.408","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:05:55.643","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:06:10.557","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:08:04.063","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:09:08.125","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:09:08.125","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:09:08.130","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:09:08.132","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:09:08.133","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2019-04-09 21:10:59.251","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:10:59.252","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:10:59.256","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:10:59.257","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:10:59.258","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:11:07.927","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:12:52.707","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:12:52.707","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:12:52.715","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:12:52.716","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:12:52.717","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:13:06.679","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:13:15.472","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:13:32.065","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:19:12.299","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:19:12.299","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:19:12.315","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:19:12.317","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:19:12.318","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:19:39.541","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:19:41.377","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:19:57.897","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:20:01.430","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:20:02.430","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-04-09 21:20:02.502","file":"user/create.go:41","msg":"datta insert error:Error 1062: Duplicate entry '张三' for key 'username'","data":{"error":"Error 1062: Duplicate entry '张三' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-09 21:20:13.692","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:20:21.703","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:20:29.917","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:20:35.263","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-04-09 21:20:35.339","file":"user/create.go:41","msg":"datta insert error:Error 1062: Duplicate entry '张三' for key 'username'","data":{"error":"Error 1062: Duplicate entry '张三' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-09 21:21:41.164","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"ERROR","timestamp":"2019-04-09 21:21:41.236","file":"user/create.go:41","msg":"datta insert error:Error 1062: Duplicate entry '张三' for key 'username'","data":{"error":"Error 1062: Duplicate entry '张三' for key 'username'"}}
+{"level":"INFO","timestamp":"2019-04-09 21:21:48.864","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:21:55.168","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:23:55.163","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:23:55.164","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:23:55.170","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:23:55.172","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:23:55.173","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:23:55.357","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:23:57.311","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:25:00.383","file":"model/init.go:50","msg":"teh inin databae config is :map[addr:localhost:3306 name:db_apiserver password:11111111 username:root]"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:25:00.383","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(localhost:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"DEBUG","timestamp":"2019-04-09 21:25:00.390","file":"model/init.go:29","msg":"the open config is :root:11111111@tcp(127.0.0.1:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2019-04-09 21:25:00.393","file":"demo07/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2019-04-09 21:25:00.394","file":"demo07/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-04-09 21:25:06.419","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:25:07.400","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:25:08.164","file":"user/delete.go:17","msg":"the delete id is 0"}
+{"level":"INFO","timestamp":"2019-04-09 21:25:16.745","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:25:19.042","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:25:29.181","file":"user/delete.go:17","msg":"the delete id is 1"}
+{"level":"INFO","timestamp":"2019-04-09 21:54:06.877","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:56:14.365","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2019-04-09 21:56:27.417","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}

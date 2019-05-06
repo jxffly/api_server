@@ -3,9 +3,9 @@ package router
 import (
 	"net/http"
 
-	"apiserver/handler/sd"
-	"apiserver/handler/user"
-	"apiserver/router/middleware"
+	"apiserver_demos/demo06/handler/sd"
+	"apiserver_demos/demo06/handler/user"
+	"apiserver_demos/demo06/router/middleware"
 
 	"github.com/gin-gonic/gin"
 )
@@ -25,7 +25,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 
 	u := g.Group("/v1/user")
 	{
-		u.POST("/:username", user.Create)
+		u.POST("/create", user.Create)
 	}
 
 	// The health check handlers
