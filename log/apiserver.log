@@ -447,3 +447,43 @@
 {"level":"INFO","timestamp":"2020-02-02 16:35:21.815","file":"middleware/logging.go:84","msg":"98µs          | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
 {"level":"INFO","timestamp":"2020-02-02 16:38:54.462","file":"middleware/logging.go:84","msg":"131µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
 {"level":"INFO","timestamp":"2020-02-02 16:39:26.287","file":"middleware/logging.go:84","msg":"9.692ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:09:58.178","file":"demo09/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-02-02 18:09:58.179","file":"demo09/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-02-02 18:10:11.624","file":"middleware/logging.go:84","msg":"11.213ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:12.652","file":"middleware/logging.go:84","msg":"7.595ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:14.549","file":"middleware/logging.go:84","msg":"8.841ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:15.441","file":"middleware/logging.go:84","msg":"6.39ms        | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:16.160","file":"middleware/logging.go:84","msg":"9.644ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:16.918","file":"middleware/logging.go:84","msg":"7.183ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:23.802","file":"middleware/logging.go:84","msg":"69.017ms      | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:41.743","file":"middleware/logging.go:84","msg":"4.911ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:43.696","file":"middleware/logging.go:84","msg":"6.482ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:44.275","file":"middleware/logging.go:84","msg":"4.408ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:44.688","file":"middleware/logging.go:84","msg":"6.859ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:45.312","file":"middleware/logging.go:84","msg":"5.516ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:45.496","file":"middleware/logging.go:84","msg":"5.34ms        | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:45.797","file":"middleware/logging.go:84","msg":"6.442ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:52.368","file":"middleware/logging.go:84","msg":"8.291ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:10:52.981","file":"middleware/logging.go:84","msg":"6.789ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:03.178","file":"middleware/logging.go:84","msg":"164µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:05.736","file":"middleware/logging.go:84","msg":"4.862ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:06.522","file":"middleware/logging.go:84","msg":"4.751ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:07.086","file":"middleware/logging.go:84","msg":"5.446ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:38.672","file":"middleware/logging.go:84","msg":"62µs          | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:46.104","file":"middleware/logging.go:84","msg":"364µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:47.260","file":"middleware/logging.go:84","msg":"69µs          | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:11:59.405","file":"middleware/logging.go:84","msg":"56µs          | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:12:14.340","file":"middleware/logging.go:84","msg":"75µs          | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:12:27.464","file":"demo09/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-02-02 18:12:27.465","file":"demo09/main.go:73","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-02-02 18:12:28.475","file":"demo09/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-02-02 18:25:43.851","file":"middleware/logging.go:84","msg":"12.437144s    | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:26:12.114","file":"middleware/logging.go:84","msg":"2.164622s     | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:26:18.993","file":"middleware/logging.go:84","msg":"96.844ms      | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:26:29.931","file":"middleware/logging.go:84","msg":"6.338ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:26:30.732","file":"middleware/logging.go:84","msg":"6.435ms       | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-02-02 18:30:03.545","file":"middleware/logging.go:84","msg":"173µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2020-02-02 18:41:58.934","file":"demo09/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-02-02 18:41:58.935","file":"demo09/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2020-02-02 18:42:04.326","file":"middleware/auth.go:16","msg":"parse token occur err:%v","data":{"error":"Token is expired"}}
+{"level":"INFO","timestamp":"2020-02-02 18:42:04.326","file":"middleware/logging.go:84","msg":"261µs         | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
