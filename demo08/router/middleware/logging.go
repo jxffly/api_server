@@ -80,7 +80,7 @@ func Logging() gin.HandlerFunc {
 			code = response.Code
 			message = response.Message
 		}
-
-		log.Infof("%-13s | %-12s | %s %s | {code: %d, message: %s}", latency, ip, pad.Right(method, 5, ""), path, code, message)
+		requestId := c.GetString("X-Request-Id")
+		log.Infof(" %-20s | %-13s | %-12s | %s %s | {code: %d, message: %s}", requestId, latency, ip, pad.Right(method, 5, ""), path, code, message)
 	}
 }

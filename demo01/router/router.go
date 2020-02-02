@@ -3,8 +3,8 @@ package router
 import (
 	"net/http"
 
-	"apiserver/handler/sd"
-	"apiserver/router/middleware"
+	"apiserver_demos/demo01/handler/sd"
+	"apiserver_demos/demo01/router/middleware"
 
 	"github.com/gin-gonic/gin"
 )
@@ -13,6 +13,8 @@ import (
 func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	// Middlewares.
 	g.Use(gin.Recovery())
+	g.Use(middleware.PathValid)
+	g.Use(middleware.NoCache)
 	g.Use(middleware.NoCache)
 	g.Use(middleware.Options)
 	g.Use(middleware.Secure)

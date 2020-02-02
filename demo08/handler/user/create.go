@@ -38,12 +38,15 @@ func Create(c *gin.Context) {
 	}
 	// Insert the user to the database.
 	if err := u.Create(); err != nil {
+		log.Infof("create occur err:%v", err)
+
 		SendResponse(c, errno.ErrDatabase, nil)
 		return
 	}
 
 	rsp := CreateResponse{
 		Username: r.Username,
+		Id:       u.Id,
 	}
 
 	// Show the user information.

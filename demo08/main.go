@@ -42,10 +42,10 @@ func main() {
 	router.Load(
 		// Cores.
 		g,
+		middleware.RequestId(),
 
 		// Middlwares.
 		middleware.Logging(),
-		middleware.RequestId(),
 	)
 
 	// Ping the server to make sure the router is working.

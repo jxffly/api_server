@@ -11,6 +11,7 @@ type CreateRequest struct {
 
 type CreateResponse struct {
 	Username string `json:"username"`
+	Id       uint64 `json:"id"`
 }
 
 type ListRequest struct {

@@ -34,15 +34,15 @@ func main() {
 		log.Print("The router has been deployed successfully.")
 	}()
 
-	log.Printf("Start to listening the incoming requests on http address: %s", ":8080")
-	log.Printf(http.ListenAndServe(":8080", g).Error())
+	log.Printf("Start to listening the incoming requests on http address: %s", ":49999")
+	log.Printf(http.ListenAndServe(":49999", g).Error())
 }
 
 // pingServer pings the http server to make sure the router is working.
 func pingServer() error {
 	for i := 0; i < 2; i++ {
 		// Ping the server by sending a GET request to `/health`.
-		resp, err := http.Get("http://127.0.0.1:8080" + "/sd/health")
+		resp, err := http.Get("http://127.0.0.1:49999" + "/sd/health")
 		if err == nil && resp.StatusCode == 200 {
 			return nil
 		}
